@@ -9,8 +9,8 @@ function getComputerChoice() {
 function playRound(playerSelection, computerSelection) {
     let playerSelectionLowerCase = playerSelection.toLowerCase();
     let computerSelectionLowerCase = computerSelection.toLowerCase();
-    if (playerSelectionLowerCase === computerSelection) {
-        return "Draw!";
+    if (playerSelectionLowerCase === computerSelectionLowerCase) {
+        return `Player's : ${playerSelection.toUpperCase()}. Computer's : ${computerSelection.toUpperCase()}. Draw!`;
     }
     else if (playerSelectionLowerCase === "rock" && computerSelectionLowerCase === "scissor") {
         user_score += 1;
