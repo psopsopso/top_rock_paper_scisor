@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #0f0f23, #1d1d3a, #2e2e4f);
+
+    font-weight: bold;
+}
+
+header {
+    font-size: xx-large;
+    min-height: 10vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: linear-gradient(to right, #663399, #9966cc, #cc99ff);
+}
+
+.mid-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+    margin-top: 20vh;
+    margin-left: 40vh;
+    margin-right: 40vh;
+}
+
+.score {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.left-section {
+    text-align: center;
+}
+
+.right-section {
+    text-align: center;
+}
