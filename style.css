@@ -37,7 +37,7 @@ header {
     align-items: center;
 }
 
-.display-text {
+#display-text {
     color: white;
     font-size: 50px;
 }
@@ -56,24 +56,6 @@ header {
     margin-left: 10vh;
     margin-right: 10vh;
 }
-
-/*
-.left-sectionbu,
-.right-sectionbu,
-.fight-sectionbu {
-    text-align: center;
-    padding: 20px;
-    border: white 5px solid;
-    border-radius: 20px;
-    background-color: black;
-    min-width: calc(100%/3);
-    min-height: calc(100%/3);
-    /* height: 250px;
-    width: 500px; */
-/*margin-left: 20px;
-    margin-right: 20px;
-}
-*/
 
 .left-section,
 .right-section {
@@ -112,8 +94,6 @@ header {
 
 .character-img {
     width: 100px;
-
-
 }
 
 .heart-img {
@@ -127,6 +107,10 @@ header {
     height: 80px;
 }
 
+.weapons-img-margin {
+    margin: 20px;
+}
+
 .play-menu {
     display: flex;
     align-items: center;
@@ -135,7 +119,11 @@ header {
     text-align: center;
 }
 
-.main-btn {
+.weapons-container {
+    display: none;
+}
+
+#play-btn {
     color: white;
     font-family: 'Final Fantasy 3/6 Font Regular';
     font-size: 25px;
@@ -149,8 +137,18 @@ header {
     transition: all .2s ease-in-out;
 }
 
-.main-btn:hover {
+#play-btn:hover {
     background-color: blue;
     transform: scale(1.01);
+}
 
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 10px 20px;
+}
+
+button:hover {
+    transform: scale(1.1);
 }

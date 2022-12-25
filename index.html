@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-    <title>Rock Paper Scissor!</title>
+    <title>Rock Paper Scissor (kinda) !</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 
     </header>
     <div class="display">
-        <p class="display-text">Hihi</p>
+        <p id="display-text"></p>
     </div>
     <div class="mid-section-container">
         <div class="left-section">
@@ -32,14 +32,14 @@
         </div>
         <div class="fight-section">
             <div class="players-choice">
-                <!-- <img class="weapons-img" src="sprites/fireball.png"> -->
+                <img class="weapons-img" id="players-weapon" src="sprites/default.png" alt="">
             </div>
             <div class="computers-choice">
-                <!-- <img class="weapons-img" src="sprites/sword.png"> -->
+                <img class="weapons-img" id="computers-weapon" src="sprites/default.png" alt="">
             </div>
         </div>
         <div class="right-section">
-            <img class="character-img" src="sprites/blackmage2rv.png" alt="">
+            <img class="character-img" src="sprites/Ff1_redmage.webp" alt="">
             <div class="heart-containers-computer">
                 <img class="heart-img" src="sprites/heart.png" alt="">
                 <img class="heart-img" src="sprites/heart.png" alt="">
@@ -48,7 +48,18 @@
         </div>
     </div>
     <div class="play-menu">
-        <a href="#" class="main-btn">Let's play!</a>
+        <a href="#" id="play-btn">Let's play!</a>
+        <div class="weapons-container">
+            <button id="sword-button">
+                <img class="weapons-img" src="sprites/sword.png" alt="">
+            </button>
+            <button id="crossbow-button">
+                <img class="weapons-img" src="sprites/crossbow.png" alt="">
+            </button>
+            <button id="fireball-button">
+                <img class="weapons-img" src="sprites/fireball.png" alt="">
+            </button>
+        </div>
     </div>
 
 </body>
